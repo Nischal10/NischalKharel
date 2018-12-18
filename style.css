@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #282828;
+}
+
+
+
+/* .top_box_design{
+  position: absolute;
+  right: 100px;
+  min-height: 200px;
+  z-index: -1;
+  min-width: 100px;
+  background-color: #e0e0e0;
+}
+
+.bottom_box_design{
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  min-height: 300px;
+  z-index: -1;
+  min-width: 100px;
+  background-color: #e0e0e0;
+} */
+
+.land{
+
+  height: 100vh;
+  width: auto;
+  letter-spacing: 2px;
+}
+
+.userico{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+nav{
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+.navbar-brand{
+  transform: scale(0.8);
+}
+
+.nav-item{
+  padding: 5px 20px;
+}
+
+h1{
+  font-weight: bold;
+ font-size: 2em;
+ letter-spacing: 0.7em;
+ text-shadow: 1px 1px 7px grey;
+ position: relative;
+ text-align: center;
+ top: 30vh;
+}
+
+p{
+  font-size: 1em;
+  letter-spacing: 0.4em;
+  position: relative;
+  text-align: center;
+  top: 30vh;
+}
+
+.talk{
+  width: 250px;
+  border-radius: 15px;
+  height: 35px;
+  background-color: #e0e0e0;
+  position: absolute;
+  right: 180px;
+  bottom: 120px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.btwrapper{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -5;
+}
+
+.btfly{
+  position: absolute;
+  top: -30px;
+  left: -20px;
+ transform: scale(0.3);
+ animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 10px;}
+    50%  {top: 20px}
+    75%  {top: 10px;}
+    100% {top: 0px;}
+}
